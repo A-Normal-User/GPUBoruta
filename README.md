@@ -1,4 +1,4 @@
-## 语言选择
+## Language Selection
 *  [English](README.md)
 *  [中文](README_CN.md)
 
