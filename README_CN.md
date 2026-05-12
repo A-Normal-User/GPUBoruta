@@ -1,6 +1,22 @@
+## 语言选择
+*  [English](README.md)
+*  [中文](README_CN.md)
+
 ## GPUBoruta
 本项目是原始Boruta算法的GPU版本实现。
 原始[python版本的Boruta算法](https://github.com/scikit-learn-contrib/boruta_py)在处理大规模数据集时可能会非常慢，而GPU版本通过利用并行计算能力从而降低计算成本。
+原始论文[Novel GPU Boruta algorithms for feature selection from high-dimensional data](https://arxiv.org/abs/2605.09950)中详细介绍了GPUBoruta算法的设计和性能评估。
+```bibtex
+@misc{li2026novelgpuborutaalgorithms,
+      title={Novel GPU Boruta algorithms for feature selection from high-dimensional data}, 
+      author={Xurui Li and Zhiguo Gan and Jiaming Zhang and Zheng Liu and Diannan Lu},
+      year={2026},
+      eprint={2605.09950},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2605.09950}, 
+}
+```
 
 ## 安装依赖
 要使用GPUBoruta，推荐您使用Python 3.10或更高版本，并且至少需要安装以下依赖项：
